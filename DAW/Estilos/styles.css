@@ -1,0 +1,236 @@
+/*
+Design by BLY Websites - Design
+*/
+
+@-moz-document url-prefix()
+{
+  #bod { display: block; }
+}
+
+
+*
+{
+border: 0;
+margin: 0;
+}
+
+
+
+
+body{
+	
+	display: none;
+
+    /*text-align: center;*/
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #20262D;
+	background: url(../images/Imagen_body.jpg) top repeat-x #24292F;
+    /*Facemos unha imagen, que vaia desde azul-gris/negro e despois se repita abaixo co color gris/negro*/
+	line-height: 16px;
+}
+
+
+#cabecera{
+display: hidden;
+	height: 207px;
+}
+
+#logo{
+    
+	/*text-align: center;*/
+    height:  110px;
+    padding: 0px 0px 0px 0px;
+}
+
+
+#bg {
+	/*FUTURA IMAGEN SEMICORPORATIVA???*/
+	}
+
+
+#main {
+	width: 900px;
+	margin: 0px auto;
+	}
+	
+
+#buttons{
+	text-align:center;
+	height: 42px;
+	margin-left: 0px;
+	padding-left: 14px;
+	padding-top: 55px;
+}
+
+
+
+#buttons a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 15px;
+	height: 27px;
+	width: 117px;              /*  O width cambieillo, estaba en 117px, si llo aumentamos as letras salense por fora, a culpa e do boton que habria que modificalo, moi pequeno*/
+	background:url(../images/button.png) left 5px no-repeat;
+}
+
+.button {
+	
+	
+}
+
+#buttons .button:hover {
+	text-decoration: none;
+	background:url(../images/button.png) left top no-repeat;
+	padding-top: 10px;
+	height: 32px;}
+	
+.but_razd { width: 3px;
+	height: 40px;
+	float:left;}	
+
+
+/*Con esto, conseguimos a caixa do contenido pegado aos botóns*/
+.contenido_top { background: url(../images/contenido_top.png) top no-repeat;
+	height: 12px;}
+.contenido_bot { background: url(../images/contenido_bot.png) bottom no-repeat;
+	height: 12px;}
+	
+	
+	
+.contenido_global{
+	background: #B7E3D9;
+	padding: 0px 15px 0px 15px;
+}	
+            /*Tres tapas*/
+.tapa_caixa { 
+			  display: none; 
+			  background:url(../images/caixa_home_top.gif) left top no-repeat;
+			  height: 10px;}
+
+				
+.caixa_global{
+    display: none;
+	background: url(../images/caixa_home_bg.gif) left repeat-y;
+}
+	
+
+	
+.caixa_1{
+    float: left; 
+	padding: 10px 30px 20px 15px;
+	width: 250px;
+}
+
+.caixa_2{
+        
+	float: left; 
+	padding: 10px 30px 20px 15px;
+	width: 250px;
+
+}
+
+
+
+.caixa_3{
+         
+    float: left; 
+	padding: 10px 15px 20px 15px;
+	width: 250px;
+
+}
+
+
+.caixa_home_bot {
+				display: none;
+				background:url(../images/caixa_home_bot.gif) left bottom no-repeat;
+				height: 10px;}
+
+				
+.Foto_Empresa{
+text-align:center;
+padding: 50px 0px 50px 0px;
+}
+
+
+
+.acceso_rapido{
+
+	width: 100%;
+	background:url(../images/acceso_top.jpg) left top no-repeat #24292F;
+	color:#FFFFFF;
+	padding: 0px 0px 0px 0px;
+
+
+
+}
+
+
+.acceso_rapido1 {
+	width: 100%;
+	background:url(../images/acceso_bot.gif) left bottom no-repeat;
+	color:#FFFFFF;
+	padding: 15px 0px 15px 15px;
+}
+
+.servicios{
+
+	float: left;
+	padding: 10px 30px 20px 15px;
+	width: 250px;
+
+}
+
+.contacto_rapido{
+	
+    float: left; 
+	padding: 10px 30px 20px 15px;
+	width: 250px;
+
+}
+
+
+.siguenos{
+
+	float: left; 
+	padding: 10px 15px 20px 15px;
+	width: 250px;
+	
+}
+
+.copyright{
+	height: 60px;
+	font-size: 12px;
+	color: #ffffff;
+	text-align: center;
+	padding: 15px 0px 0px 0px;
+}
+
+
+.formulario{
+	height: 300px;
+    width: 550px;
+	float: right;
+	background: #33B29D;
+	padding: 15px 10px 15px 10px;
+	border-radius: 15px 15px;
+	-webkit-border-radius: 15px 15px;
+    -moz-border-radius: 15px 15px;
+
+
+}
+
+.contacto{
+	/*float:left;*/
+    height: 350px;
+	width: 250px;
+	margin: 15px 10px 15px 10px;
+
+}
+
+
